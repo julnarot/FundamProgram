@@ -1,4 +1,4 @@
-#Crear Una funcion que permita crear una matriz nula e n x m 
+#Crear juego 3 en raya
 
 def crear_matriz(f,c):
     mat = []
@@ -24,8 +24,14 @@ def ingresar_posicion(mat):
     data = raw_input("Ingrese Ficha: ")
     mat[x][y] = data
 
-fila = input("Ingrese Numero de Fila: ")
-columna = input("Ingrese Numero de Columnas: ")
+fila = 3
+columna = 3
+
+estado = 10
+while != 0:
+    
+
+
 
 mat1 = crear_matriz(fila, columna)
 reportar_matriz(mat1, fila)
